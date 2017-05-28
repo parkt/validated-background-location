@@ -13,11 +13,11 @@
 
     <!-- ios -->
     <platform name="ios">
+       <!--<config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+            <string>Validated needs your location to help you find and alert you of places nearby.</string>
+        </config-file>-->
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>Validated needs your location to help you find places nearby.</string>
-        </config-file>
-        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>Validated needs your location to help you find and alert you of places nearby.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
